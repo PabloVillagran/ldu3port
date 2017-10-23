@@ -1,0 +1,160 @@
+html{
+  overflow-x: hidden;
+}
+
+html, body{
+  height:100%;
+}
+
+.full{
+  background-color:black;
+  height:100%;
+  width: 100%;
+}
+
+/*ESTILO BARRA DE NAVEGACIÓN*/
+.navContainter{
+  width:100%;
+  position: fixed !important;
+  z-index: 10;
+}
+
+.navegacion{
+  margin:0px auto;
+  max-width: 565px;
+}
+
+.opciones{
+  margin-left:70px !important;
+}
+/*FIN BARRA DE NAVEGACIÓN*/
+
+/*INICIO SECCIONES*/
+.seccion{
+  height:100% !important;
+  min-height:390px;
+  padding:100px 7% 1em 7%;
+  overflow: hidden;
+}
+
+.animacion{
+  background-color:#ED5F3E;
+}
+
+.about{
+  background-color:#EDC43E;
+}
+
+.portafolio{
+  background-color:#423CA5;
+}
+
+.estrategia{
+  background-color:#2CAA5F;
+}
+
+.contacto{
+  background-color:#D33A16;
+}
+/*FIN SECCIONES*/
+
+/*ESTILO IMAGENES ABOUT*/
+.stacked{
+  overflow:hidden;
+  text-align: center;
+  position:absolute;
+}
+
+.stacked > img{
+  width: 100%;
+  height: 100%;
+}
+
+.stacked-back{
+  -webkit-transform:rotate(-2deg);
+}
+
+.stacked-front{
+  margin:2em;
+  -webkit-transform:rotate(5deg);
+}
+/*FIN IMAGENES ABOUT*/
+
+/*ICONOS DE CONTACTO*/
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+/** giro
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+*/
+
+a {
+ background-color: #D3D3D3;
+}
+/*FIN ICONOS DE CONTACTO*/
